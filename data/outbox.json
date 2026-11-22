@@ -1,0 +1,47 @@
+[
+  {
+    "delivery": "M1",
+    "user": "U1",
+    "week": "12",
+    "kind": "趋势",
+    "version": "1",
+    "at": "98",
+    "status": "已送"
+  },
+  {
+    "delivery": "M2",
+    "user": "U2",
+    "week": "12",
+    "kind": "实测",
+    "version": "1",
+    "at": "98",
+    "status": "已送"
+  },
+  {
+    "delivery": "M3",
+    "user": "U3",
+    "week": "12",
+    "kind": "实测",
+    "version": "1",
+    "at": "98",
+    "status": "未知"
+  },
+  {
+    "delivery": "M4",
+    "user": "U1",
+    "week": "13",
+    "kind": "趋势",
+    "version": "1",
+    "at": "104",
+    "status": "待发"
+  },
+  {
+    "delivery": "M5",
+    "user": "U3",
+    "week": "13",
+    "kind": "实测",
+    "version": "1",
+    "at": "105",
+    "status": "待发"
+  }
+]

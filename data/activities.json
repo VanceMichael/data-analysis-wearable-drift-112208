@@ -1,0 +1,79 @@
+[
+  {
+    "record": "R1",
+    "user": "U1",
+    "device": "D1",
+    "fw": "old",
+    "week": "12",
+    "start": "0",
+    "end": "50",
+    "value": "110",
+    "worn": "45"
+  },
+  {
+    "record": "R2",
+    "user": "U1",
+    "device": "D2",
+    "fw": "new",
+    "week": "12",
+    "start": "25",
+    "end": "60",
+    "value": "100",
+    "worn": "35"
+  },
+  {
+    "record": "R3",
+    "user": "U1",
+    "device": "D2",
+    "fw": "new",
+    "week": "13",
+    "start": "0",
+    "end": "60",
+    "value": "120",
+    "worn": "48"
+  },
+  {
+    "record": "R4",
+    "user": "U2",
+    "device": "D1",
+    "fw": "old",
+    "week": "12",
+    "start": "0",
+    "end": "55",
+    "value": "45",
+    "worn": "18"
+  },
+  {
+    "record": "R5",
+    "user": "U2",
+    "device": "D3",
+    "fw": "new",
+    "week": "13",
+    "start": "0",
+    "end": "60",
+    "value": "78",
+    "worn": "38"
+  },
+  {
+    "record": "R6",
+    "user": "U3",
+    "device": "D1",
+    "fw": "old",
+    "week": "12",
+    "start": "0",
+    "end": "60",
+    "value": "240",
+    "worn": "60"
+  },
+  {
+    "record": "R7",
+    "user": "U3",
+    "device": "D3",
+    "fw": "new",
+    "week": "13",
+    "start": "0",
+    "end": "60",
+    "value": "270",
+    "worn": "60"
+  }
+]

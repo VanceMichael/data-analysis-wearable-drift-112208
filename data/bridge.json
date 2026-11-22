@@ -1,0 +1,57 @@
+[
+  {
+    "pair": "P1",
+    "device": "D1+D2",
+    "old": "96",
+    "new": "105",
+    "worn_old": "50",
+    "worn_new": "51",
+    "condition": "日常活动",
+    "revision": "1",
+    "state": "有效"
+  },
+  {
+    "pair": "P2",
+    "device": "D1+D2",
+    "old": "115",
+    "new": "123",
+    "worn_old": "54",
+    "worn_new": "55",
+    "condition": "日常活动",
+    "revision": "1",
+    "state": "有效"
+  },
+  {
+    "pair": "P3",
+    "device": "D1+D3",
+    "old": "79",
+    "new": "72",
+    "worn_old": "46",
+    "worn_new": "42",
+    "condition": "日常活动",
+    "revision": "1",
+    "state": "有效"
+  },
+  {
+    "pair": "P4",
+    "device": "D1+D3",
+    "old": "125",
+    "new": "128",
+    "worn_old": "50",
+    "worn_new": "51",
+    "condition": "日常活动",
+    "revision": "1",
+    "state": "有效"
+  },
+  {
+    "pair": "P2",
+    "device": "D1+D2",
+    "old": "115",
+    "new": "123",
+    "worn_old": "54",
+    "worn_new": "55",
+    "condition": "日常活动",
+    "revision": "2",
+    "state": "撤回"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "user": "U1",
+    "mode": "整周",
+    "effective": "90",
+    "correction_days": "15"
+  },
+  {
+    "user": "U2",
+    "mode": "分段",
+    "effective": "90",
+    "correction_days": "0"
+  },
+  {
+    "user": "U3",
+    "mode": "分段",
+    "effective": "90",
+    "correction_days": "10"
+  },
+  {
+    "user": "U1",
+    "mode": "停订",
+    "effective": "104",
+    "correction_days": "15"
+  }
+]

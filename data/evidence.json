@@ -1,0 +1,30 @@
+[
+  {
+    "bridge": "P1",
+    "predecessor": "?",
+    "firmware_from": "old",
+    "firmware_to": "new",
+    "released_day": "90"
+  },
+  {
+    "bridge": "P2",
+    "predecessor": "?",
+    "firmware_from": "old",
+    "firmware_to": "new",
+    "released_day": "90"
+  },
+  {
+    "bridge": "P3",
+    "predecessor": "?",
+    "firmware_from": "old",
+    "firmware_to": "new",
+    "released_day": "90"
+  },
+  {
+    "bridge": "P4",
+    "predecessor": "?",
+    "firmware_from": "old",
+    "firmware_to": "new",
+    "released_day": "90"
+  }
+]

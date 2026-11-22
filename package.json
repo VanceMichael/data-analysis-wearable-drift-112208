@@ -1,0 +1,13 @@
+{
+  "name": "wearable-drift",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "test": "node --test",
+    "data:check": "node --test test/data.test.js"
+  }
+}
