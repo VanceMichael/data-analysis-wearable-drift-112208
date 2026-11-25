@@ -1,0 +1,261 @@
+{
+  "asOfDay": 105,
+  "bridge": [
+    {
+      "device": "D1+D2",
+      "usable": false,
+      "pairCount": 1,
+      "meanValueDelta": 9,
+      "meanWornDelta": 1,
+      "valueErrorLimit": 9,
+      "wornErrorLimit": 1,
+      "reasons": [
+        "有效配对 1 < 最少 2"
+      ]
+    },
+    {
+      "device": "D1+D3",
+      "usable": true,
+      "pairCount": 2,
+      "meanValueDelta": -2,
+      "meanWornDelta": -1.5,
+      "valueErrorLimit": 7,
+      "wornErrorLimit": 4,
+      "reasons": []
+    }
+  ],
+  "comparability": [
+    {
+      "user": "U1",
+      "week": "12",
+      "comparable": true,
+      "trendEligible": false,
+      "basis": "overlap-only",
+      "oldCoverage": 0.9,
+      "newCoverage": 1,
+      "coverageGatePassed": true,
+      "bridgeDevice": "D1+D2",
+      "bridgeUsable": false,
+      "valueErrorLimit": 9,
+      "wornErrorLimit": 1,
+      "overlapWindows": [
+        {
+          "records": [
+            "R1",
+            "R2"
+          ],
+          "window": {
+            "start": 25,
+            "end": 50,
+            "length": 25
+          },
+          "doubleWorn": {
+            "low": 20,
+            "high": 25
+          },
+          "combinedValue": {
+            "low": 110,
+            "high": 210
+          }
+        }
+      ],
+      "reasons": [
+        "桥接失效：有效配对 1 < 最少 2"
+      ]
+    },
+    {
+      "user": "U1",
+      "week": "13",
+      "comparable": false,
+      "trendEligible": false,
+      "basis": "measured-only",
+      "oldCoverage": 0,
+      "newCoverage": 0.8,
+      "coverageGatePassed": false,
+      "bridgeDevice": "D1+D2",
+      "bridgeUsable": false,
+      "valueErrorLimit": 9,
+      "wornErrorLimit": 1,
+      "overlapWindows": [],
+      "reasons": [
+        "桥接失效：有效配对 1 < 最少 2"
+      ]
+    },
+    {
+      "user": "U2",
+      "week": "12",
+      "comparable": false,
+      "trendEligible": false,
+      "basis": "measured-only",
+      "oldCoverage": 0.327,
+      "newCoverage": 0,
+      "coverageGatePassed": false,
+      "bridgeDevice": "D1+D3",
+      "bridgeUsable": true,
+      "valueErrorLimit": 7,
+      "wornErrorLimit": 4,
+      "overlapWindows": [],
+      "reasons": [
+        "旧版佩戴覆盖度 0.327 低于门槛 0.65",
+        "只换固件没有重合参照，且桥接不可用"
+      ]
+    },
+    {
+      "user": "U2",
+      "week": "13",
+      "comparable": false,
+      "trendEligible": false,
+      "basis": "measured-only",
+      "oldCoverage": 0,
+      "newCoverage": 0.633,
+      "coverageGatePassed": false,
+      "bridgeDevice": "D1+D3",
+      "bridgeUsable": true,
+      "valueErrorLimit": 7,
+      "wornErrorLimit": 4,
+      "overlapWindows": [],
+      "reasons": []
+    },
+    {
+      "user": "U3",
+      "week": "12",
+      "comparable": true,
+      "trendEligible": true,
+      "basis": "bridged",
+      "oldCoverage": 1,
+      "newCoverage": 0,
+      "coverageGatePassed": true,
+      "bridgeDevice": "D1+D3",
+      "bridgeUsable": true,
+      "valueErrorLimit": 7,
+      "wornErrorLimit": 4,
+      "overlapWindows": [],
+      "reasons": []
+    },
+    {
+      "user": "U3",
+      "week": "13",
+      "comparable": false,
+      "trendEligible": false,
+      "basis": "measured-only",
+      "oldCoverage": 0,
+      "newCoverage": 1,
+      "coverageGatePassed": false,
+      "bridgeDevice": "D1+D3",
+      "bridgeUsable": true,
+      "valueErrorLimit": 7,
+      "wornErrorLimit": 4,
+      "overlapWindows": [],
+      "reasons": []
+    }
+  ],
+  "deliveries": [
+    {
+      "delivery": "M1",
+      "user": "U1",
+      "week": "12",
+      "requestedKind": "趋势",
+      "version": 1,
+      "recordedStatus": "已送",
+      "effectiveStatus": "已送",
+      "action": "更正",
+      "actionKind": null,
+      "mode": "停订",
+      "reevaluable": false,
+      "correctionWindow": {
+        "open": true,
+        "deadline": 113,
+        "daysLeft": 8
+      },
+      "reasons": [
+        "已发趋势版失去证据支持，纠正窗口内单独出具更正"
+      ]
+    },
+    {
+      "delivery": "M2",
+      "user": "U2",
+      "week": "12",
+      "requestedKind": "实测",
+      "version": 1,
+      "recordedStatus": "已送",
+      "effectiveStatus": "已送",
+      "action": null,
+      "actionKind": null,
+      "mode": "分段",
+      "reevaluable": false,
+      "correctionWindow": {
+        "open": false,
+        "deadline": 98,
+        "daysLeft": -7
+      },
+      "reasons": []
+    },
+    {
+      "delivery": "M3",
+      "user": "U3",
+      "week": "12",
+      "requestedKind": "实测",
+      "version": 1,
+      "recordedStatus": "未知",
+      "effectiveStatus": "已送",
+      "action": null,
+      "actionKind": null,
+      "mode": "分段",
+      "reevaluable": false,
+      "correctionWindow": {
+        "open": true,
+        "deadline": 108,
+        "daysLeft": 3
+      },
+      "reasons": []
+    },
+    {
+      "delivery": "M4",
+      "user": "U1",
+      "week": "13",
+      "requestedKind": "趋势",
+      "version": 1,
+      "recordedStatus": "待发",
+      "effectiveStatus": "待发",
+      "action": "抑制",
+      "actionKind": null,
+      "mode": "停订",
+      "reevaluable": true,
+      "correctionWindow": null,
+      "reasons": [
+        "订阅已停订，停止新的常规周报",
+        "整周订阅只收可比趋势，当前证据不支持，暂不发送并保留复判",
+        "桥接失效：有效配对 1 < 最少 2"
+      ]
+    },
+    {
+      "delivery": "M5",
+      "user": "U3",
+      "week": "13",
+      "requestedKind": "实测",
+      "version": 1,
+      "recordedStatus": "待发",
+      "effectiveStatus": "待发",
+      "action": "发送",
+      "actionKind": "实测",
+      "mode": "分段",
+      "reevaluable": true,
+      "correctionWindow": null,
+      "reasons": [
+        "分段实测摘要到期发送"
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "user": "U1",
+      "week": "12",
+      "targetDelivery": "M1",
+      "target": "M1",
+      "kind": "更正",
+      "explanation": "原 M1（U1 第12周趋势版 v1）所依赖的可比性已不成立：桥接失效：有效配对 1 < 最少 2。趋势箭头改为未知，实测分段数据仍然有效。",
+      "deadline": 113,
+      "daysLeft": 8
+    }
+  ]
+}

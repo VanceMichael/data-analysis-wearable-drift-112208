@@ -8,6 +8,8 @@
   },
   "scripts": {
     "test": "node --test",
-    "data:check": "node --test test/data.test.js"
+    "data:check": "node --test test/data.test.js",
+    "report": "node src/cli.js run",
+    "report:user": "node src/cli.js user"
   }
 }
